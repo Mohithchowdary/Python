@@ -42,12 +42,9 @@ def sum_while(n):
 def fac_iter(n):
    if n<0:
        print(colored("factorial does not exist for negative numbers", r))
-  
    elif n==0:
        return 1
-  
    else:
-   ##factorial-iteration
     i, fac = 1, 1
     while i<=n:
        fac = fac*n
@@ -56,7 +53,6 @@ def fac_iter(n):
 
 #factorial recursion:
 def fac_rec(n):
-   #factorial-recursion
    if n == 0 or n == 1 :
        return 1
    else :
@@ -71,7 +67,7 @@ def fib_iter(n):
    elif n == 1:
        return 1
    elif n < 0:
-       print(colored("Please enter valid postive integers.", r))
+       print(colored("Please enter valid positive integers.", r))
    else:
        print(colored("\nFibonacci sequence upto ", r) + colored(n, w) + colored(" using iteration: ", r))
        print(a, end=' ')
@@ -82,8 +78,6 @@ def fib_iter(n):
            b = c
            print(c, end=' ')
           
-
-
 #fibonacci recursion:
 def fib_rec(n):
    print(colored("\n\nFibonacci sequence upto ", r) + colored(n, w) + colored(" using recursion:",r))
@@ -125,6 +119,7 @@ elif action == '3' or action == '03' :
    fib_iter(n)
    fib_rec(n)
    print("\n")
+
 else:
    print(colored("The action you're trying to perform is invalid. Please try again.", r))
    exit()
