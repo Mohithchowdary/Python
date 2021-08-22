@@ -1,3 +1,10 @@
+""" 
+Write python programs
+      a. To print all prime numbers between N to M.
+      b. To find the largest among three numbers, input by user.
+      c. To find GCD two numbers, input by user.    
+"""      
+
 import os, time
 from termcolor import colored
 
