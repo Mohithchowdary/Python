@@ -68,7 +68,7 @@ def GCD_rec(x, y):
     else:
        return GCD(y, x%y)
 
-#switch---------------------
+#switch -------------------------
 def switch():
     if action == "1" or action == "01" :
         os.system("cls")
