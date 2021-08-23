@@ -32,7 +32,6 @@ print("\n** Swapping **\nBefore swap: " + a, b)
 a,b = b,a
 print("After swap: {0}, {1}" .format(a, b), end="\n\n -------------")
 
-
 #b
 print("\n** Arthimetic Operations **")
 a,b = 5,4 
