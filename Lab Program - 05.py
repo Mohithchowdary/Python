@@ -17,8 +17,8 @@ print(colored("Python Programs:", r) + """
 03. Exit""")
 
 #a. python operators --------
-def arthimetic(): # +, -, *, /, %, **, //
-    print(colored('01. Arthimetic Operators:', r))
+def arithmetic(): # +, -, *, /, %, **, //
+    print(colored('01. Arithmetic Operators:', r))
 
     add = a+b
     sub = a-b
@@ -135,7 +135,7 @@ def membership(): #in, not in
     print('\n Mohith (in) names: ' + str('Mohith' in names))
     print(' Iris (not in) names: ' + str('Iris' not in names))
 
-def bitwise(): #&, |, ^, ~, <<, >> - Binary comparision
+def bitwise(): #&, |, ^, ~, <<, >> - Binary comparison
     print(colored('\n07. Bitwise Operators: ', r))
 
     AND = a&b
@@ -177,13 +177,15 @@ def overtime_pay():
     os.system('cls')
     print(colored("Overall Overtime pay of all the ", r) + str(employees) + colored(" employees is: ", r) + str(payout) + " Rs/-")
 
+
+
 #switch---------------------
 def switch(): 
     action = input('\nPlease specify the action you want to perform: ') 
     if action == '01' or action == '1':
         os.system('cls')
         print("Python Operators:\n")
-        arthimetic()
+        arithmetic()
         assignment()
         comparison()
         logical()
