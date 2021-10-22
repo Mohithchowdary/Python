@@ -26,7 +26,7 @@ def working_with_strings():
     #string-slicing [start:stop:step]
     slice_n = name[0:6] #normal
     slice_r = name[::-1] #inverse
-    print("\nslicing: \n slice[0:6]: " + slice_n + "\n slice[::-1]: " + slice_r)
+    print("\nString slicing: \n slice[0:6]: " + slice_n + "\n slice[::-1]: " + slice_r)
 
     #string-traversing
     print("\nString traversing:")
@@ -165,14 +165,15 @@ match action:
         print("\n")
 
         if linear_search(list, value) == -1:
-            print(f"Linear Search:  The value '{value}' you're looking for isn't available.")
+            print(f"Linear Search: The value '{value}' you're looking for isn't available.")
         else:
-            print(f"Linear Search:The value '{value}' you're looking for is found at {linear_search(list, value)} index.")        
+            print(f"Linear Search: The value '{value}' you're looking for is found at {linear_search(list, value)} index.")        
 
         print("\nBinary Search: \n- Index and elements - (Sorted in increasing order before finding the element in the list)")
         for i in range(0, len(list)):
             print(i, end=" ")
         print("")
+        list = sorted(list)
         for i in range(0, len(list)):
             print(list[i], end = " ")
         print("\n")
