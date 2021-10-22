@@ -1,8 +1,8 @@
-"""
+'''
 2. Write programs to implement conditional operations on following:
    a. Python program to find the sum and average of natural numbers up to n where n is provided by the user.
    b. Python program to find factorial, and Fibonacci of a number, received by user, with iterative as well as recursive process.
-"""
+'''
 
 import os
 from termcolor import colored
