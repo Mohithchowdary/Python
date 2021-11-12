@@ -1,7 +1,7 @@
 '''
 6. Write Python programs using NumPy and Pandas:
     a. Write a Pandas program to create and display a DataFrame from a specified dictionary data which has the index labels.
-    b. To create a 4X2 integer array and prints its attributes.
+    b. To create a 4x2 integer array and prints its attributes.
     c. For the given numpy array return array of odd rows and even columns.
     d. To add the two NumPy arrays and modify a result array by calculating the square root of each element.
 '''
@@ -37,7 +37,7 @@ def DataFrame():
     print("\nDataFrame using Pandas:\n" , pd.DataFrame(data, index=serial_no))
     print()
 
-#b. To create a 4X2 integer array and prints its attributes.
+#b. To create a 4x2 integer array and prints its attributes.
 def intarray_4x2():
     print("4x2 Integer array using NumPy:\n", np.empty([4,2], dtype=np.int8))
     print()
