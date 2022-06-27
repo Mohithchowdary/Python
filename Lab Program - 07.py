@@ -1,3 +1,21 @@
+'''
+Write python program to show following plots using Matplotlib library.
+    1. To read total profit of all months and show it using a line plot where 
+        . x axis should be month number
+        . y axis should be named as total profit.
+    
+    2. To get total profit of all months and show line plot with the following style properties:
+        . Line Style dotted and Line-color should be red.
+        . Show legend at the lower right location.
+        . X label name = Month Number.
+        . Y label name = Sold units number.
+        . Add a circle marker.
+        . Line marker color as red.
+        . Line width should be 3.
+'''
+
+
+
 import os
 from numpy import arctan
 import pandas as pd
